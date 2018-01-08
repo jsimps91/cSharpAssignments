@@ -1,0 +1,10 @@
+/Users/jessicasimpson/Desktop/CSharp/boxing/bin/Debug/netcoreapp2.0/boxing.deps.json
+/Users/jessicasimpson/Desktop/CSharp/boxing/bin/Debug/netcoreapp2.0/boxing.runtimeconfig.json
+/Users/jessicasimpson/Desktop/CSharp/boxing/bin/Debug/netcoreapp2.0/boxing.runtimeconfig.dev.json
+/Users/jessicasimpson/Desktop/CSharp/boxing/bin/Debug/netcoreapp2.0/boxing.dll
+/Users/jessicasimpson/Desktop/CSharp/boxing/bin/Debug/netcoreapp2.0/boxing.pdb
+/Users/jessicasimpson/Desktop/CSharp/boxing/obj/Debug/netcoreapp2.0/boxing.csproj.CoreCompileInputs.cache
+/Users/jessicasimpson/Desktop/CSharp/boxing/obj/Debug/netcoreapp2.0/boxing.AssemblyInfoInputs.cache
+/Users/jessicasimpson/Desktop/CSharp/boxing/obj/Debug/netcoreapp2.0/boxing.AssemblyInfo.cs
+/Users/jessicasimpson/Desktop/CSharp/boxing/obj/Debug/netcoreapp2.0/boxing.dll
+/Users/jessicasimpson/Desktop/CSharp/boxing/obj/Debug/netcoreapp2.0/boxing.pdb

@@ -1,0 +1,30 @@
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Survey</h1>
+    <form action="submitSurvey" method="post">
+        <label>Name:</label>
+        <input class="form-control" type="text" name="name">
+        <label>Location:</label>
+        <select class="form-control" name="location">
+            <option value="San Jose">San Jose</option>
+            <option value="Seattle">Seattle</option>
+            <option value="Chicago">Chicago</option>
+            <option value="Dallas">Dallas</option>
+            <option value="D.C.">D.C.</option>
+        </select>
+        <label>Favorite Language:</label>
+        <select class="form-control" name="language">
+            <option value="Ruby">Ruby</option>
+            <option value="Javascript">Javascript</option>
+            <option value="Python">Python</option>
+            <option value="C#">C#</option>
+        </select>
+        <label>Comment (optional):</label>
+        <textarea class="form-control" name="comment"></textarea><br>
+        <button type="submit">Submit</button>
+    </form>
+    </div>
+</body>

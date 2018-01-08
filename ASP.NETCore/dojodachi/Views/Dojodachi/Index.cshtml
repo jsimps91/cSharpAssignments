@@ -1,0 +1,26 @@
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dojodachi</h1>
+        @{
+            <h3>Happiness: @TempData["happiness"]  |  Fullness: @TempData["fullness"]  |  Energy: @TempData["energy"]  |  Meals: @TempData["meals"]</h3>
+            <h5>@TempData["message"]</h5>
+        }
+        @{
+            if(TempData["gameStatus"] == "playing")
+            {
+                <a href="/feed"><button>Feed</button></a>
+                <a href="/play"><button>Play</button></a>
+                <a href="/work"><button>Work</button></a>
+                <a href="/sleep"><button>Sleep</button></a>
+            }
+            else if(TempData["gameStatus"] == "over")
+            {
+                <a href="/reset"><button>Reset</button></a>
+            }
+        }
+
+    </div>
+</body>

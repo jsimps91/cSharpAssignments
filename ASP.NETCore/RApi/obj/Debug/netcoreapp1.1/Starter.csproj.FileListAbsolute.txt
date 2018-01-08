@@ -1,0 +1,10 @@
+/Users/jessicasimpson/Desktop/CSharp/RApi/bin/Debug/netcoreapp1.1/Starter.deps.json
+/Users/jessicasimpson/Desktop/CSharp/RApi/bin/Debug/netcoreapp1.1/Starter.runtimeconfig.json
+/Users/jessicasimpson/Desktop/CSharp/RApi/bin/Debug/netcoreapp1.1/Starter.runtimeconfig.dev.json
+/Users/jessicasimpson/Desktop/CSharp/RApi/bin/Debug/netcoreapp1.1/Starter.dll
+/Users/jessicasimpson/Desktop/CSharp/RApi/bin/Debug/netcoreapp1.1/Starter.pdb
+/Users/jessicasimpson/Desktop/CSharp/RApi/obj/Debug/netcoreapp1.1/Starter.csproj.CoreCompileInputs.cache
+/Users/jessicasimpson/Desktop/CSharp/RApi/obj/Debug/netcoreapp1.1/Starter.AssemblyInfoInputs.cache
+/Users/jessicasimpson/Desktop/CSharp/RApi/obj/Debug/netcoreapp1.1/Starter.AssemblyInfo.cs
+/Users/jessicasimpson/Desktop/CSharp/RApi/obj/Debug/netcoreapp1.1/Starter.dll
+/Users/jessicasimpson/Desktop/CSharp/RApi/obj/Debug/netcoreapp1.1/Starter.pdb

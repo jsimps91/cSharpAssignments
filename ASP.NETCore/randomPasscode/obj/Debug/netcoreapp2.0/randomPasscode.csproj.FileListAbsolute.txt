@@ -1,0 +1,10 @@
+/Users/jessicasimpson/Desktop/CSharp/randomPasscode/bin/Debug/netcoreapp2.0/randomPasscode.deps.json
+/Users/jessicasimpson/Desktop/CSharp/randomPasscode/bin/Debug/netcoreapp2.0/randomPasscode.runtimeconfig.json
+/Users/jessicasimpson/Desktop/CSharp/randomPasscode/bin/Debug/netcoreapp2.0/randomPasscode.runtimeconfig.dev.json
+/Users/jessicasimpson/Desktop/CSharp/randomPasscode/bin/Debug/netcoreapp2.0/randomPasscode.dll
+/Users/jessicasimpson/Desktop/CSharp/randomPasscode/bin/Debug/netcoreapp2.0/randomPasscode.pdb
+/Users/jessicasimpson/Desktop/CSharp/randomPasscode/obj/Debug/netcoreapp2.0/randomPasscode.csproj.CoreCompileInputs.cache
+/Users/jessicasimpson/Desktop/CSharp/randomPasscode/obj/Debug/netcoreapp2.0/randomPasscode.AssemblyInfoInputs.cache
+/Users/jessicasimpson/Desktop/CSharp/randomPasscode/obj/Debug/netcoreapp2.0/randomPasscode.AssemblyInfo.cs
+/Users/jessicasimpson/Desktop/CSharp/randomPasscode/obj/Debug/netcoreapp2.0/randomPasscode.dll
+/Users/jessicasimpson/Desktop/CSharp/randomPasscode/obj/Debug/netcoreapp2.0/randomPasscode.pdb

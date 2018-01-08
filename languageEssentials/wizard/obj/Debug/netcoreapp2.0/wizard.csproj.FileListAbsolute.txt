@@ -1,0 +1,10 @@
+/Users/jessicasimpson/Desktop/CSharp/wizard/bin/Debug/netcoreapp2.0/wizard.deps.json
+/Users/jessicasimpson/Desktop/CSharp/wizard/bin/Debug/netcoreapp2.0/wizard.runtimeconfig.json
+/Users/jessicasimpson/Desktop/CSharp/wizard/bin/Debug/netcoreapp2.0/wizard.runtimeconfig.dev.json
+/Users/jessicasimpson/Desktop/CSharp/wizard/bin/Debug/netcoreapp2.0/wizard.dll
+/Users/jessicasimpson/Desktop/CSharp/wizard/bin/Debug/netcoreapp2.0/wizard.pdb
+/Users/jessicasimpson/Desktop/CSharp/wizard/obj/Debug/netcoreapp2.0/wizard.csproj.CoreCompileInputs.cache
+/Users/jessicasimpson/Desktop/CSharp/wizard/obj/Debug/netcoreapp2.0/wizard.AssemblyInfoInputs.cache
+/Users/jessicasimpson/Desktop/CSharp/wizard/obj/Debug/netcoreapp2.0/wizard.AssemblyInfo.cs
+/Users/jessicasimpson/Desktop/CSharp/wizard/obj/Debug/netcoreapp2.0/wizard.dll
+/Users/jessicasimpson/Desktop/CSharp/wizard/obj/Debug/netcoreapp2.0/wizard.pdb

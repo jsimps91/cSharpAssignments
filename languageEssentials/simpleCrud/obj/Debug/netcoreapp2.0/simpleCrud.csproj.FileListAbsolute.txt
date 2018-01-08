@@ -1,0 +1,10 @@
+/Users/jessicasimpson/Desktop/CSharp/simpleCrud/bin/Debug/netcoreapp2.0/simpleCrud.deps.json
+/Users/jessicasimpson/Desktop/CSharp/simpleCrud/bin/Debug/netcoreapp2.0/simpleCrud.runtimeconfig.json
+/Users/jessicasimpson/Desktop/CSharp/simpleCrud/bin/Debug/netcoreapp2.0/simpleCrud.runtimeconfig.dev.json
+/Users/jessicasimpson/Desktop/CSharp/simpleCrud/bin/Debug/netcoreapp2.0/simpleCrud.dll
+/Users/jessicasimpson/Desktop/CSharp/simpleCrud/bin/Debug/netcoreapp2.0/simpleCrud.pdb
+/Users/jessicasimpson/Desktop/CSharp/simpleCrud/obj/Debug/netcoreapp2.0/simpleCrud.csproj.CoreCompileInputs.cache
+/Users/jessicasimpson/Desktop/CSharp/simpleCrud/obj/Debug/netcoreapp2.0/simpleCrud.AssemblyInfoInputs.cache
+/Users/jessicasimpson/Desktop/CSharp/simpleCrud/obj/Debug/netcoreapp2.0/simpleCrud.AssemblyInfo.cs
+/Users/jessicasimpson/Desktop/CSharp/simpleCrud/obj/Debug/netcoreapp2.0/simpleCrud.dll
+/Users/jessicasimpson/Desktop/CSharp/simpleCrud/obj/Debug/netcoreapp2.0/simpleCrud.pdb

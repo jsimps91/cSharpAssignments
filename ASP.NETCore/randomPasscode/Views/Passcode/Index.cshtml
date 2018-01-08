@@ -1,0 +1,14 @@
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Random passcode</h1>
+    @{
+        <h2>Attempt #@TempData["attempt"]</h2>
+        <h2>@TempData["passcode"]</h2>
+    }
+    <a href=""><button>Generate!</button></a>
+    
+    </div>
+</body>

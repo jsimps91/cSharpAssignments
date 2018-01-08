@@ -1,0 +1,10 @@
+/Users/jessicasimpson/Desktop/CSharp/deckOfCards/bin/Debug/netcoreapp2.0/deckOfCards.deps.json
+/Users/jessicasimpson/Desktop/CSharp/deckOfCards/bin/Debug/netcoreapp2.0/deckOfCards.runtimeconfig.json
+/Users/jessicasimpson/Desktop/CSharp/deckOfCards/bin/Debug/netcoreapp2.0/deckOfCards.runtimeconfig.dev.json
+/Users/jessicasimpson/Desktop/CSharp/deckOfCards/bin/Debug/netcoreapp2.0/deckOfCards.dll
+/Users/jessicasimpson/Desktop/CSharp/deckOfCards/bin/Debug/netcoreapp2.0/deckOfCards.pdb
+/Users/jessicasimpson/Desktop/CSharp/deckOfCards/obj/Debug/netcoreapp2.0/deckOfCards.csproj.CoreCompileInputs.cache
+/Users/jessicasimpson/Desktop/CSharp/deckOfCards/obj/Debug/netcoreapp2.0/deckOfCards.AssemblyInfoInputs.cache
+/Users/jessicasimpson/Desktop/CSharp/deckOfCards/obj/Debug/netcoreapp2.0/deckOfCards.AssemblyInfo.cs
+/Users/jessicasimpson/Desktop/CSharp/deckOfCards/obj/Debug/netcoreapp2.0/deckOfCards.dll
+/Users/jessicasimpson/Desktop/CSharp/deckOfCards/obj/Debug/netcoreapp2.0/deckOfCards.pdb

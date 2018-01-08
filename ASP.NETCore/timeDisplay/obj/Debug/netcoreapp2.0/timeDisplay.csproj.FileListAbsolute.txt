@@ -1,0 +1,10 @@
+/Users/jessicasimpson/Desktop/CSharp/timeDisplay/bin/Debug/netcoreapp2.0/timeDisplay.deps.json
+/Users/jessicasimpson/Desktop/CSharp/timeDisplay/bin/Debug/netcoreapp2.0/timeDisplay.runtimeconfig.json
+/Users/jessicasimpson/Desktop/CSharp/timeDisplay/bin/Debug/netcoreapp2.0/timeDisplay.runtimeconfig.dev.json
+/Users/jessicasimpson/Desktop/CSharp/timeDisplay/bin/Debug/netcoreapp2.0/timeDisplay.dll
+/Users/jessicasimpson/Desktop/CSharp/timeDisplay/bin/Debug/netcoreapp2.0/timeDisplay.pdb
+/Users/jessicasimpson/Desktop/CSharp/timeDisplay/obj/Debug/netcoreapp2.0/timeDisplay.csproj.CoreCompileInputs.cache
+/Users/jessicasimpson/Desktop/CSharp/timeDisplay/obj/Debug/netcoreapp2.0/timeDisplay.AssemblyInfoInputs.cache
+/Users/jessicasimpson/Desktop/CSharp/timeDisplay/obj/Debug/netcoreapp2.0/timeDisplay.AssemblyInfo.cs
+/Users/jessicasimpson/Desktop/CSharp/timeDisplay/obj/Debug/netcoreapp2.0/timeDisplay.dll
+/Users/jessicasimpson/Desktop/CSharp/timeDisplay/obj/Debug/netcoreapp2.0/timeDisplay.pdb

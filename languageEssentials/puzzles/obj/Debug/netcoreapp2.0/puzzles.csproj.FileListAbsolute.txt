@@ -1,0 +1,10 @@
+/Users/jessicasimpson/Desktop/CSharp/puzzles/bin/Debug/netcoreapp2.0/puzzles.deps.json
+/Users/jessicasimpson/Desktop/CSharp/puzzles/bin/Debug/netcoreapp2.0/puzzles.runtimeconfig.json
+/Users/jessicasimpson/Desktop/CSharp/puzzles/bin/Debug/netcoreapp2.0/puzzles.runtimeconfig.dev.json
+/Users/jessicasimpson/Desktop/CSharp/puzzles/bin/Debug/netcoreapp2.0/puzzles.dll
+/Users/jessicasimpson/Desktop/CSharp/puzzles/bin/Debug/netcoreapp2.0/puzzles.pdb
+/Users/jessicasimpson/Desktop/CSharp/puzzles/obj/Debug/netcoreapp2.0/puzzles.csproj.CoreCompileInputs.cache
+/Users/jessicasimpson/Desktop/CSharp/puzzles/obj/Debug/netcoreapp2.0/puzzles.AssemblyInfoInputs.cache
+/Users/jessicasimpson/Desktop/CSharp/puzzles/obj/Debug/netcoreapp2.0/puzzles.AssemblyInfo.cs
+/Users/jessicasimpson/Desktop/CSharp/puzzles/obj/Debug/netcoreapp2.0/puzzles.dll
+/Users/jessicasimpson/Desktop/CSharp/puzzles/obj/Debug/netcoreapp2.0/puzzles.pdb

@@ -1,0 +1,45 @@
+body{
+    background-color: pink;
+}
+
+.container{
+    margin: 20px;
+
+}
+img{
+    width: 30vw;
+    height: auto;
+    display: inline-block;
+}
+.aboutMe{
+    width: 40vw;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 100px;
+}
+.project{
+    vertical-align: top;
+}
+.projectDiv{
+    vertical-align: top;
+    margin: 5px;
+    width: 31vw;
+    display: inline-block;
+}
+input{
+    width: 25vw;
+    margin-bottom: 10px;
+    
+}
+textarea{
+    width: 25vw;
+    height: 10vh;
+    margin-top: 10px;
+}
+button{
+    margin-top: 10px;
+}
+label{
+    vertical-align: top;
+    
+}

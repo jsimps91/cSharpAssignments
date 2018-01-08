@@ -1,0 +1,10 @@
+/Users/jessicasimpson/Desktop/CSharp/dojodachi/bin/Debug/netcoreapp2.0/dojodachi.deps.json
+/Users/jessicasimpson/Desktop/CSharp/dojodachi/bin/Debug/netcoreapp2.0/dojodachi.runtimeconfig.json
+/Users/jessicasimpson/Desktop/CSharp/dojodachi/bin/Debug/netcoreapp2.0/dojodachi.runtimeconfig.dev.json
+/Users/jessicasimpson/Desktop/CSharp/dojodachi/bin/Debug/netcoreapp2.0/dojodachi.dll
+/Users/jessicasimpson/Desktop/CSharp/dojodachi/bin/Debug/netcoreapp2.0/dojodachi.pdb
+/Users/jessicasimpson/Desktop/CSharp/dojodachi/obj/Debug/netcoreapp2.0/dojodachi.csproj.CoreCompileInputs.cache
+/Users/jessicasimpson/Desktop/CSharp/dojodachi/obj/Debug/netcoreapp2.0/dojodachi.AssemblyInfoInputs.cache
+/Users/jessicasimpson/Desktop/CSharp/dojodachi/obj/Debug/netcoreapp2.0/dojodachi.AssemblyInfo.cs
+/Users/jessicasimpson/Desktop/CSharp/dojodachi/obj/Debug/netcoreapp2.0/dojodachi.dll
+/Users/jessicasimpson/Desktop/CSharp/dojodachi/obj/Debug/netcoreapp2.0/dojodachi.pdb
