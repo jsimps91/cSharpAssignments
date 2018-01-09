@@ -67,7 +67,7 @@ namespace puzzles
             System.Console.WriteLine("result is {0}", result);
             return result;
         }
-        static void names()
+        static string[] names()
         {
             string[] arr = new string[]{"Todd", "Tiffany", "Charlie", "Geneva", "Sydney"};
             Random rand = new Random();
@@ -97,6 +97,7 @@ namespace puzzles
             {
                 System.Console.WriteLine(name);
             }
+            return newArr;
         }
         static void Main(string[] args)
         {
