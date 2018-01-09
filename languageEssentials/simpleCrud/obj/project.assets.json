@@ -6734,11 +6734,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jessicasimpson/Desktop/CSharp/simpleCrud/simpleCrud.csproj",
+      "projectUniqueName": "/Users/jessicasimpson/Desktop/CSharp/languageEssentials/simpleCrud/simpleCrud.csproj",
       "projectName": "simpleCrud",
-      "projectPath": "/Users/jessicasimpson/Desktop/CSharp/simpleCrud/simpleCrud.csproj",
+      "projectPath": "/Users/jessicasimpson/Desktop/CSharp/languageEssentials/simpleCrud/simpleCrud.csproj",
       "packagesPath": "/Users/jessicasimpson/.nuget/packages/",
-      "outputPath": "/Users/jessicasimpson/Desktop/CSharp/simpleCrud/obj/",
+      "outputPath": "/Users/jessicasimpson/Desktop/CSharp/languageEssentials/simpleCrud/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

@@ -7451,11 +7451,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jessicasimpson/Desktop/CSharp/music-linq/LinqSkeleton.csproj",
+      "projectUniqueName": "/Users/jessicasimpson/Desktop/CSharp/languageEssentials/music-linq/LinqSkeleton.csproj",
       "projectName": "LinqSkeleton",
-      "projectPath": "/Users/jessicasimpson/Desktop/CSharp/music-linq/LinqSkeleton.csproj",
+      "projectPath": "/Users/jessicasimpson/Desktop/CSharp/languageEssentials/music-linq/LinqSkeleton.csproj",
       "packagesPath": "/Users/jessicasimpson/.nuget/packages/",
-      "outputPath": "/Users/jessicasimpson/Desktop/CSharp/music-linq/obj/",
+      "outputPath": "/Users/jessicasimpson/Desktop/CSharp/languageEssentials/music-linq/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/jessicasimpson/.nuget/NuGet/NuGet.Config"

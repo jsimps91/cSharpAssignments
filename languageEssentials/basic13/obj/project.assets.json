@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jessicasimpson/Desktop/CSharp/basic13/basic13.csproj",
+      "projectUniqueName": "/Users/jessicasimpson/Desktop/CSharp/languageEssentials/basic13/basic13.csproj",
       "projectName": "basic13",
-      "projectPath": "/Users/jessicasimpson/Desktop/CSharp/basic13/basic13.csproj",
+      "projectPath": "/Users/jessicasimpson/Desktop/CSharp/languageEssentials/basic13/basic13.csproj",
       "packagesPath": "/Users/jessicasimpson/.nuget/packages/",
-      "outputPath": "/Users/jessicasimpson/Desktop/CSharp/basic13/obj/",
+      "outputPath": "/Users/jessicasimpson/Desktop/CSharp/languageEssentials/basic13/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

@@ -49,10 +49,10 @@ namespace collectionsPractice
             {
                 dict[name] = flavors[rand.Next(0,flavors.Count)];
             }
-            foreach(var entry in dict)
-            {
-                System.Console.WriteLine(entry.Key + " - " + entry.Value);
-            }
+            // foreach(var entry in dict)
+            // {
+            //     System.Console.WriteLine(entry.Key + " - " + entry.Value);
+            // }
         }
     }
 }

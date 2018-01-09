@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jessicasimpson/Desktop/CSharp/puzzles/puzzles.csproj",
+      "projectUniqueName": "/Users/jessicasimpson/Desktop/CSharp/languageEssentials/puzzles/puzzles.csproj",
       "projectName": "puzzles",
-      "projectPath": "/Users/jessicasimpson/Desktop/CSharp/puzzles/puzzles.csproj",
+      "projectPath": "/Users/jessicasimpson/Desktop/CSharp/languageEssentials/puzzles/puzzles.csproj",
       "packagesPath": "/Users/jessicasimpson/.nuget/packages/",
-      "outputPath": "/Users/jessicasimpson/Desktop/CSharp/puzzles/obj/",
+      "outputPath": "/Users/jessicasimpson/Desktop/CSharp/languageEssentials/puzzles/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

@@ -4,7 +4,7 @@ namespace puzzles
 {
     class Program
     {
-        static void randomArray()
+        static int[] randomArray()
         {
             int sum = 0;
             int[] arr = new int[10];
@@ -31,6 +31,7 @@ namespace puzzles
             }
             System.Console.WriteLine("min is {0}", min);
             System.Console.WriteLine("max is {0}", max);
+            return arr;
         }
         static int coinToss()
         {

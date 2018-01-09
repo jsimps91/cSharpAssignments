@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jessicasimpson/Desktop/CSharp/collectionsPractice/collectionsPractice.csproj",
+      "projectUniqueName": "/Users/jessicasimpson/Desktop/CSharp/languageEssentials/collectionsPractice/collectionsPractice.csproj",
       "projectName": "collectionsPractice",
-      "projectPath": "/Users/jessicasimpson/Desktop/CSharp/collectionsPractice/collectionsPractice.csproj",
+      "projectPath": "/Users/jessicasimpson/Desktop/CSharp/languageEssentials/collectionsPractice/collectionsPractice.csproj",
       "packagesPath": "/Users/jessicasimpson/.nuget/packages/",
-      "outputPath": "/Users/jessicasimpson/Desktop/CSharp/collectionsPractice/obj/",
+      "outputPath": "/Users/jessicasimpson/Desktop/CSharp/languageEssentials/collectionsPractice/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

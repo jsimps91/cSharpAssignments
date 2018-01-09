@@ -8,3 +8,13 @@
 /Users/jessicasimpson/Desktop/CSharp/basic13/obj/Debug/netcoreapp2.0/basic13.AssemblyInfo.cs
 /Users/jessicasimpson/Desktop/CSharp/basic13/obj/Debug/netcoreapp2.0/basic13.dll
 /Users/jessicasimpson/Desktop/CSharp/basic13/obj/Debug/netcoreapp2.0/basic13.pdb
+/Users/jessicasimpson/Desktop/CSharp/languageEssentials/basic13/obj/Debug/netcoreapp2.0/basic13.csproj.CoreCompileInputs.cache
+/Users/jessicasimpson/Desktop/CSharp/languageEssentials/basic13/obj/Debug/netcoreapp2.0/basic13.AssemblyInfoInputs.cache
+/Users/jessicasimpson/Desktop/CSharp/languageEssentials/basic13/obj/Debug/netcoreapp2.0/basic13.AssemblyInfo.cs
+/Users/jessicasimpson/Desktop/CSharp/languageEssentials/basic13/obj/Debug/netcoreapp2.0/basic13.dll
+/Users/jessicasimpson/Desktop/CSharp/languageEssentials/basic13/obj/Debug/netcoreapp2.0/basic13.pdb
+/Users/jessicasimpson/Desktop/CSharp/languageEssentials/basic13/bin/Debug/netcoreapp2.0/basic13.deps.json
+/Users/jessicasimpson/Desktop/CSharp/languageEssentials/basic13/bin/Debug/netcoreapp2.0/basic13.runtimeconfig.json
+/Users/jessicasimpson/Desktop/CSharp/languageEssentials/basic13/bin/Debug/netcoreapp2.0/basic13.runtimeconfig.dev.json
+/Users/jessicasimpson/Desktop/CSharp/languageEssentials/basic13/bin/Debug/netcoreapp2.0/basic13.dll
+/Users/jessicasimpson/Desktop/CSharp/languageEssentials/basic13/bin/Debug/netcoreapp2.0/basic13.pdb

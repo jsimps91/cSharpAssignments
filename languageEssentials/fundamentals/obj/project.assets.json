@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jessicasimpson/Desktop/CSharp/fundamentals/fundamentals.csproj",
+      "projectUniqueName": "/Users/jessicasimpson/Desktop/CSharp/languageEssentials/fundamentals/fundamentals.csproj",
       "projectName": "fundamentals",
-      "projectPath": "/Users/jessicasimpson/Desktop/CSharp/fundamentals/fundamentals.csproj",
+      "projectPath": "/Users/jessicasimpson/Desktop/CSharp/languageEssentials/fundamentals/fundamentals.csproj",
       "packagesPath": "/Users/jessicasimpson/.nuget/packages/",
-      "outputPath": "/Users/jessicasimpson/Desktop/CSharp/fundamentals/obj/",
+      "outputPath": "/Users/jessicasimpson/Desktop/CSharp/languageEssentials/fundamentals/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

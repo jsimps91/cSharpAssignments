@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jessicasimpson/Desktop/CSharp/deckOfCards/deckOfCards.csproj",
+      "projectUniqueName": "/Users/jessicasimpson/Desktop/CSharp/languageEssentials/deckOfCards/deckOfCards.csproj",
       "projectName": "deckOfCards",
-      "projectPath": "/Users/jessicasimpson/Desktop/CSharp/deckOfCards/deckOfCards.csproj",
+      "projectPath": "/Users/jessicasimpson/Desktop/CSharp/languageEssentials/deckOfCards/deckOfCards.csproj",
       "packagesPath": "/Users/jessicasimpson/.nuget/packages/",
-      "outputPath": "/Users/jessicasimpson/Desktop/CSharp/deckOfCards/obj/",
+      "outputPath": "/Users/jessicasimpson/Desktop/CSharp/languageEssentials/deckOfCards/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

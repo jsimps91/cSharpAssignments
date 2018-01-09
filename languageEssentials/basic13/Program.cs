@@ -147,10 +147,13 @@ namespace basic13
                 System.Console.WriteLine(arr[i]);
             }
         }
+        
+
+
         static void Main(string[] args)
         {
-            // numToString(new object[]{-1,2,-3,-4,5});
-            Console.WriteLine("hello");
+            numToString(new object[]{-1,2,-3,-4,5});
+            
         }
     }
 }

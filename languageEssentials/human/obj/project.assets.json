@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jessicasimpson/Desktop/CSharp/human/human.csproj",
+      "projectUniqueName": "/Users/jessicasimpson/Desktop/CSharp/languageEssentials/human/human.csproj",
       "projectName": "human",
-      "projectPath": "/Users/jessicasimpson/Desktop/CSharp/human/human.csproj",
+      "projectPath": "/Users/jessicasimpson/Desktop/CSharp/languageEssentials/human/human.csproj",
       "packagesPath": "/Users/jessicasimpson/.nuget/packages/",
-      "outputPath": "/Users/jessicasimpson/Desktop/CSharp/human/obj/",
+      "outputPath": "/Users/jessicasimpson/Desktop/CSharp/languageEssentials/human/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

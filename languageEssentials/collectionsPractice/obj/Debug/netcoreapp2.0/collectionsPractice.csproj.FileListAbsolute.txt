@@ -8,3 +8,13 @@
 /Users/jessicasimpson/Desktop/CSharp/collectionsPractice/obj/Debug/netcoreapp2.0/collectionsPractice.AssemblyInfo.cs
 /Users/jessicasimpson/Desktop/CSharp/collectionsPractice/obj/Debug/netcoreapp2.0/collectionsPractice.dll
 /Users/jessicasimpson/Desktop/CSharp/collectionsPractice/obj/Debug/netcoreapp2.0/collectionsPractice.pdb
+/Users/jessicasimpson/Desktop/CSharp/languageEssentials/collectionsPractice/bin/Debug/netcoreapp2.0/collectionsPractice.deps.json
+/Users/jessicasimpson/Desktop/CSharp/languageEssentials/collectionsPractice/bin/Debug/netcoreapp2.0/collectionsPractice.runtimeconfig.json
+/Users/jessicasimpson/Desktop/CSharp/languageEssentials/collectionsPractice/bin/Debug/netcoreapp2.0/collectionsPractice.runtimeconfig.dev.json
+/Users/jessicasimpson/Desktop/CSharp/languageEssentials/collectionsPractice/bin/Debug/netcoreapp2.0/collectionsPractice.dll
+/Users/jessicasimpson/Desktop/CSharp/languageEssentials/collectionsPractice/bin/Debug/netcoreapp2.0/collectionsPractice.pdb
+/Users/jessicasimpson/Desktop/CSharp/languageEssentials/collectionsPractice/obj/Debug/netcoreapp2.0/collectionsPractice.csproj.CoreCompileInputs.cache
+/Users/jessicasimpson/Desktop/CSharp/languageEssentials/collectionsPractice/obj/Debug/netcoreapp2.0/collectionsPractice.AssemblyInfoInputs.cache
+/Users/jessicasimpson/Desktop/CSharp/languageEssentials/collectionsPractice/obj/Debug/netcoreapp2.0/collectionsPractice.AssemblyInfo.cs
+/Users/jessicasimpson/Desktop/CSharp/languageEssentials/collectionsPractice/obj/Debug/netcoreapp2.0/collectionsPractice.dll
+/Users/jessicasimpson/Desktop/CSharp/languageEssentials/collectionsPractice/obj/Debug/netcoreapp2.0/collectionsPractice.pdb

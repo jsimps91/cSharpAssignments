@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jessicasimpson/Desktop/CSharp/boxing/boxing.csproj",
+      "projectUniqueName": "/Users/jessicasimpson/Desktop/CSharp/languageEssentials/boxing/boxing.csproj",
       "projectName": "boxing",
-      "projectPath": "/Users/jessicasimpson/Desktop/CSharp/boxing/boxing.csproj",
+      "projectPath": "/Users/jessicasimpson/Desktop/CSharp/languageEssentials/boxing/boxing.csproj",
       "packagesPath": "/Users/jessicasimpson/.nuget/packages/",
-      "outputPath": "/Users/jessicasimpson/Desktop/CSharp/boxing/obj/",
+      "outputPath": "/Users/jessicasimpson/Desktop/CSharp/languageEssentials/boxing/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
