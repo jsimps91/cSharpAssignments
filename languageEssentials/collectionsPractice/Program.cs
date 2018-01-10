@@ -47,7 +47,7 @@ namespace collectionsPractice
             Random rand = new Random();
             foreach(string name in names)
             {
-                dict[name] = flavors[rand.Next(0,flavors.Count)];
+                dict[name] = flavors[0];
             }
             // foreach(var entry in dict)
             // {

@@ -9329,11 +9329,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jessicasimpson/Desktop/CSharp/RApi/Starter.csproj",
+      "projectUniqueName": "/Users/jessicasimpson/Desktop/CSharp/ASP.NETCore/RApi/Starter.csproj",
       "projectName": "Starter",
-      "projectPath": "/Users/jessicasimpson/Desktop/CSharp/RApi/Starter.csproj",
+      "projectPath": "/Users/jessicasimpson/Desktop/CSharp/ASP.NETCore/RApi/Starter.csproj",
       "packagesPath": "/Users/jessicasimpson/.nuget/packages/",
-      "outputPath": "/Users/jessicasimpson/Desktop/CSharp/RApi/obj/",
+      "outputPath": "/Users/jessicasimpson/Desktop/CSharp/ASP.NETCore/RApi/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/jessicasimpson/.nuget/NuGet/NuGet.Config"

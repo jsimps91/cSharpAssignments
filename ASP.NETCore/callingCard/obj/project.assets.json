@@ -12540,11 +12540,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jessicasimpson/Desktop/CSharp/callingCard/callingCard.csproj",
+      "projectUniqueName": "/Users/jessicasimpson/Desktop/CSharp/ASP.NETCore/callingCard/callingCard.csproj",
       "projectName": "callingCard",
-      "projectPath": "/Users/jessicasimpson/Desktop/CSharp/callingCard/callingCard.csproj",
+      "projectPath": "/Users/jessicasimpson/Desktop/CSharp/ASP.NETCore/callingCard/callingCard.csproj",
       "packagesPath": "/Users/jessicasimpson/.nuget/packages/",
-      "outputPath": "/Users/jessicasimpson/Desktop/CSharp/callingCard/obj/",
+      "outputPath": "/Users/jessicasimpson/Desktop/CSharp/ASP.NETCore/callingCard/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

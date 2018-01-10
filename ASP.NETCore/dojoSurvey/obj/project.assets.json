@@ -12543,11 +12543,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jessicasimpson/Desktop/CSharp/dojoSurvey/dojoSurvey.csproj",
+      "projectUniqueName": "/Users/jessicasimpson/Desktop/CSharp/ASP.NETCore/dojoSurvey/dojoSurvey.csproj",
       "projectName": "dojoSurvey",
-      "projectPath": "/Users/jessicasimpson/Desktop/CSharp/dojoSurvey/dojoSurvey.csproj",
+      "projectPath": "/Users/jessicasimpson/Desktop/CSharp/ASP.NETCore/dojoSurvey/dojoSurvey.csproj",
       "packagesPath": "/Users/jessicasimpson/.nuget/packages/",
-      "outputPath": "/Users/jessicasimpson/Desktop/CSharp/dojoSurvey/obj/",
+      "outputPath": "/Users/jessicasimpson/Desktop/CSharp/ASP.NETCore/dojoSurvey/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

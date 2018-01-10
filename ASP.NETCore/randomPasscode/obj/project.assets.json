@@ -12544,11 +12544,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jessicasimpson/Desktop/CSharp/randomPasscode/randomPasscode.csproj",
+      "projectUniqueName": "/Users/jessicasimpson/Desktop/CSharp/ASP.NETCore/randomPasscode/randomPasscode.csproj",
       "projectName": "randomPasscode",
-      "projectPath": "/Users/jessicasimpson/Desktop/CSharp/randomPasscode/randomPasscode.csproj",
+      "projectPath": "/Users/jessicasimpson/Desktop/CSharp/ASP.NETCore/randomPasscode/randomPasscode.csproj",
       "packagesPath": "/Users/jessicasimpson/.nuget/packages/",
-      "outputPath": "/Users/jessicasimpson/Desktop/CSharp/randomPasscode/obj/",
+      "outputPath": "/Users/jessicasimpson/Desktop/CSharp/ASP.NETCore/randomPasscode/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

@@ -12543,11 +12543,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jessicasimpson/Desktop/CSharp/timeDisplay/timeDisplay.csproj",
+      "projectUniqueName": "/Users/jessicasimpson/Desktop/CSharp/ASP.NETCore/timeDisplay/timeDisplay.csproj",
       "projectName": "timeDisplay",
-      "projectPath": "/Users/jessicasimpson/Desktop/CSharp/timeDisplay/timeDisplay.csproj",
+      "projectPath": "/Users/jessicasimpson/Desktop/CSharp/ASP.NETCore/timeDisplay/timeDisplay.csproj",
       "packagesPath": "/Users/jessicasimpson/.nuget/packages/",
-      "outputPath": "/Users/jessicasimpson/Desktop/CSharp/timeDisplay/obj/",
+      "outputPath": "/Users/jessicasimpson/Desktop/CSharp/ASP.NETCore/timeDisplay/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

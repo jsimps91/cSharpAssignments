@@ -25,6 +25,7 @@ namespace wizard{
             else
             {
                 enemy.health -= strength * 5;
+                System.Console.WriteLine("{0} was attacked by {1}. Health is now {2}", enemy.name, name, enemy.health);
             }
         }
     }
