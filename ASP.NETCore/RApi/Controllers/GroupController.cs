@@ -41,12 +41,13 @@ namespace MusicApi.Controllers
             }
             else
             {
-                // var members = allArtists.Where(a => a.GroupId == id).ToList();
-                var group = allGroups.Where(g => g.Id == id).Join(allArtists, g => g.Id, a => a.GroupId, (g, a) =>
-                {
-                    // g.Members = members;
-                    return a;
-                });
+                var members = allArtists.Where(a => a.GroupId == id).ToList();
+                
+                
+
+                var group = allGroups.Where(g => g.Id == id).SingleOrDefault();
+                group.Members = members;
+                
                 return Json(group);
 
             }
