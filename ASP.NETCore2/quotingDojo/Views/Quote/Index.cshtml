@@ -1,0 +1,20 @@
+<h1>Quoting Dojo</h1>
+<div class="container">
+    <form action="createQuote" method="post">
+        <label>Your name:</label>
+        <input class="form-control" type="text" name="name">
+        <br>
+        <label>Your quote:</label>
+        <textarea class="form-control" name="quote"></textarea>
+        <br>
+        <button class="btn-primary" type="submit">Submit</button>
+    </form>
+    <h2>All Quotes</h2>
+    @{
+        @foreach(var quote in ViewBag.Quotes)
+        {
+            <h3>@quote["content"]</h3>
+            <h5>@quote["user"]</h5>
+        }
+    }
+</div> 

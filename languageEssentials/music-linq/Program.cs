@@ -18,11 +18,11 @@ namespace ConsoleApplication
             //========================================================
 
             //There is only one artist in this collection from Mount Vernon, what is their name and age?
-            var artists = Artists.Select(a => a.ArtistName).Where(x => x[0] == 'L');
-            foreach(var artist in artists)
-            {
-                System.Console.WriteLine(artist);
-            } 
+            // var artists = Artists.Select(a => a.ArtistName).Where(x => x[0] == 'L');
+            // foreach(var artist in artists)
+            // {
+            //     System.Console.WriteLine(artist);
+            // } 
           
             // System.Console.WriteLine(mtVernon.ArtistName);
             // System.Console.WriteLine(mtVernon.Age);
@@ -81,6 +81,8 @@ namespace ConsoleApplication
             
 
             //(Optional) Display the artist names of all members of the group 'Wu-Tang Clan'
+
+
 
             // var wuTang = Groups.Where(group => group.GroupName == "Wu-Tang Clan").Join(Artists, g => g.Id, a => a.GroupId, (g, a) =>
             // {
