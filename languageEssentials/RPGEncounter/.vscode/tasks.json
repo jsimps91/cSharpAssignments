@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/wizard2.csproj"
+                "${workspaceFolder}/wizard.csproj"
             ],
             "problemMatcher": "$msCompile"
         }

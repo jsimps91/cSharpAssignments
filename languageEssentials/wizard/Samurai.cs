@@ -1,31 +1,31 @@
 using System;
-namespace wizard{
-    public class Samurai : Human{
-         public static int count = 0;
-        public Samurai(string person) : base(person){
+namespace wizard2
+{
+    public class Samurai : Human 
+    {
+        public static int count;
+        public Samurai(string n) : base (n)
+        {
             health = 200;
-            count ++;
+            count++;
+            
         }
-        public void deathBlow(Enemy enemy){
+        public void deathBlow(Human enemy)
+        {
             if(enemy.health < 50)
             {
                 enemy.health = 0;
-                System.Console.WriteLine("{0} was attacked by {1} and health is now {2}", enemy.name, name, enemy.health);
-            }
-            else
-            {
-                System.Console.WriteLine("Enemy's health is greater than 50");
+                System.Console.WriteLine("{0} was attacked by {1}, health is now {2}", enemy.name, name, enemy.health);
             }
         }
-        public void listMethods(){
-            System.Console.WriteLine("Your choices are 1)attack and 2)deathBlow");
+        public void meditate()
+        {
+            health = 200;
+            System.Console.WriteLine("{0} meditated and is now healed! Health is {1}", name, health);
         }
-        public void meditate(){
-            this.health = 200;
-            System.Console.WriteLine("Health is now restored to "+ this.health);
-        }
-        public void howMany(){
-            System.Console.WriteLine("Number of samurais: "+ count);
+        public static void howMany()
+        {
+            System.Console.WriteLine(count);
         }
     }
 }

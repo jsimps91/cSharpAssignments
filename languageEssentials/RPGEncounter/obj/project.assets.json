@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jessicasimpson/Desktop/CSharp/languageEssentials/wizard2/wizard2.csproj",
-      "projectName": "wizard2",
-      "projectPath": "/Users/jessicasimpson/Desktop/CSharp/languageEssentials/wizard2/wizard2.csproj",
+      "projectUniqueName": "/Users/jessicasimpson/Desktop/CSharp/languageEssentials/wizard/wizard.csproj",
+      "projectName": "wizard",
+      "projectPath": "/Users/jessicasimpson/Desktop/CSharp/languageEssentials/wizard/wizard.csproj",
       "packagesPath": "/Users/jessicasimpson/.nuget/packages/",
-      "outputPath": "/Users/jessicasimpson/Desktop/CSharp/languageEssentials/wizard2/obj/",
+      "outputPath": "/Users/jessicasimpson/Desktop/CSharp/languageEssentials/wizard/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

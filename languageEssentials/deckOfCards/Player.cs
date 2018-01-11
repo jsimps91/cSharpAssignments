@@ -3,10 +3,11 @@ using System.Collections.Generic;
 namespace deckOfCards{
     public class Player{
         List<Card> hand = new List<Card>();
-        public Player draw(Deck deck)
+        public Card draw(Deck deck)
         {
-            this.hand.Add(deck.deal());
-            return this;
+            Card cardToDraw = deck.deal();
+            this.hand.Add(cardToDraw);
+            return cardToDraw;
         }
         public Card discard(int idx)
         {

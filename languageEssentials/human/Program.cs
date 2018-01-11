@@ -11,6 +11,13 @@ namespace human
             Bob.attack(Bill);
             Bill.attack(5);
             Bill.attack(Bob);
+            Human.howMany();
+            System.Console.WriteLine(Bob);
+            
+            
+         
+
+            
         }
     }
 }
