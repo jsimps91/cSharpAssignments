@@ -1,0 +1,9 @@
+<h1>Error</h1>
+@{
+    foreach(var error in ViewBag.errors){
+        @if(error.Errors.Count > 0){
+            <h5>@error.Errors[0].ErrorMessage</h5>
+        }
+        
+    }
+}
