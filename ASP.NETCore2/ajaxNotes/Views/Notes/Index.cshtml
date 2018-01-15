@@ -1,0 +1,36 @@
+<head></head>
+<body>
+<h1>Ajax Notes!</h1>
+<form action="newNote" method="post">
+    <input class="form-control" type="text" name="title">
+    <br>
+    <button class="btn btn-info" type="submit">Add note!</button>
+</form>
+@{
+    foreach(var note in ViewBag.notes){
+        int id = note["id"];
+        <h3>@note["title"]  |  <a href="delete/@id">Delete</a></h3>
+        <h5>Description (click to edit)</h5>
+        @if(note["description"] is DBNull)
+        {
+            <p class="description" data-id="@id">No description yet!</p>
+        }
+        else{
+            <p class="description" data-id="@id">@note["description"]</p>
+        }
+        
+        <form action="update/@id" method="post" style="visibility: hidden">
+        <div id="@id" class="form-group" style="width: 30vw">
+            <textarea class="form-control" name="description">@note["description"]</textarea> 
+            <br>
+            <button class="btn btn-info" type="submit">Update</button>
+        </div>
+            
+            
+        </form>
+    }
+}
+</body>
+<script>
+
+</script>

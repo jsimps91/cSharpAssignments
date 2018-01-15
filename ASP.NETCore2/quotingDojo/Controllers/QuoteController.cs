@@ -28,6 +28,8 @@ namespace quotingDojo.Controllers
             DbConnector.Execute(query);
             return RedirectToAction("Index");
         }
+
+       
         
     }
 }
