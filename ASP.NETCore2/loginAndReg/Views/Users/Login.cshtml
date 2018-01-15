@@ -1,0 +1,18 @@
+@model loginAndReg.Models.LoginUser
+<form asp-action="Signin" asp-controller="Users" method="post">
+    @ViewBag.email
+    <span asp-validation-for="email"></span>
+    <br>
+    <label>Email:</label>
+    <br>
+    <input class="form-control" asp-for="email">
+    <br>
+    @ViewBag.password
+    <span asp-validation-for="password"></span>
+    <br>
+    <label>Password:</label>
+    <br>
+    <input class="form-control" asp-for="password">
+    <br>
+    <button class="btn btn-info" type="submit">Login</button>
+</form>
