@@ -1,8 +1,6 @@
 using System.ComponentModel.DataAnnotations;
-namespace loginAndReg.Models{
+namespace theWall.Models{
     public abstract class BaseEntity {}
-
-
     public class RegUser : BaseEntity {
         [Required]
         [MinLength(2, ErrorMessage="First name must be at least 2 characters!")]
@@ -21,7 +19,6 @@ namespace loginAndReg.Models{
         public string password {get;set;}
         
         [Required]
-        [DataType(DataType.Password)]
        [Compare("password", ErrorMessage="Passwords must match!")]
         public string confirmPassword {get;set;}
     }
@@ -35,5 +32,11 @@ namespace loginAndReg.Models{
         [Required]
         [DataType(DataType.Password)]
         public string password{get;set;}
+    }
+
+    public class UserViewModels
+    {
+        public RegUser Reg{get;set;}
+        public LoginUser Log{get;set;}
     }
 }

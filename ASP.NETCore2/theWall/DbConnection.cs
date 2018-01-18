@@ -1,26 +1,24 @@
 using System.Collections.Generic;
 using System.Data;
-using Microsoft.Extensions.Options;
 using MySql.Data.MySqlClient;
  
-namespace loginAndReg
+namespace DbConnection
 {
     public class DbConnector
     {
-        private readonly IOptions<MySqlOptions> MySqlConfig;
- 
-        public DbConnector(IOptions<MySqlOptions> config)
-        {
-            MySqlConfig = config;
-        }
-        internal IDbConnection Connection {
+        static string server = "localhost";
+        static string db = "theWall"; //Change to your schema name
+        static string port = "8889"; //Potentially 8889
+        static string user = "root";
+        static string pass = "root";
+        internal static IDbConnection Connection {
             get {
-                return new MySqlConnection(MySqlConfig.Value.ConnectionString);
+                return new MySqlConnection($"Server={server};Port={port};Database={db};UserID={user};Password={pass};SslMode=None");
             }
         }
         
         //This method runs a query and stores the response in a list of dictionary records
-        public List<Dictionary<string, object>> Query(string queryString)
+        public static List<Dictionary<string, object>> Query(string queryString)
         {
             using(IDbConnection dbConnection = Connection)
             {
@@ -39,13 +37,13 @@ namespace loginAndReg
                           }
                           result.Add(dict);
                       }
-                   }
-                   return result;
+                      return result;
+                                      }
                 }
             }
         }
         //This method run a query and returns no values
-        public void Execute(string queryString)
+        public static void Execute(string queryString)
         {
             using (IDbConnection dbConnection = Connection)
             {

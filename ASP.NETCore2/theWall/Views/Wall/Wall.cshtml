@@ -1,0 +1,35 @@
+<h1>The Wall</h1>
+<a id="logout" href="/logout">Logout</a>
+<h3>Welcome, @ViewBag.name</h3>
+<form asp-action="createMessage" asp-action="Wall">
+    <textarea class="form-control" rows="5" name="message"></textarea>
+    <br>
+    <button class="btn btn-info" type="submit">Post!</button>
+</form>
+@{
+    @foreach(var message in ViewBag.messages)
+    {
+        <h3>@message["message"]  -  @message["first_name"] @message["last_name"]</h3> 
+        <h4>@message["created_at"].ToString("D")</h4>
+        int messageId = message["message_id"];
+        @if(@message["users_id"] == ViewBag.id)
+        {
+            <a href="delete/@messageId">Delete</a>
+        }
+    
+        @foreach(var comment in ViewBag.comments){
+            @if(comment["messages_id"] == message["message_id"])
+            {
+                <h5>@comment["comment"]  - @comment["first_name"] @comment["last_name"]</h5>
+                <h6>@comment["created_at"].ToString("D")</h6>
+            }  
+        }
+        <form asp-action="createComment" asp-controller="Wall">
+            <textarea class="form-control" rows="3" name="comment"></textarea>
+            <input type="hidden" name="messageId" value="@messageId">
+            <br>
+            <button class="btn btn-info" type="submit">Comment!</button>
+        </form>
+       
+    }
+}

@@ -1,0 +1,9 @@
+.half{
+    width: 35vw;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 4vw;
+}
+#logout{
+    float: right;
+}

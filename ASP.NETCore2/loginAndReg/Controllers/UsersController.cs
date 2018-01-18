@@ -4,12 +4,18 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 using loginAndReg.Models;
-using DbConnection;
+
 
 namespace loginAndReg.Controllers
 {
     public class UsersController : Controller
     {
+        private readonly DbConnector _dbConnector;
+ 
+        public UsersController(DbConnector connect)
+        {
+            _dbConnector = connect;
+        }
         // GET: /Home/
         [HttpGet]
         [Route("")]
@@ -26,14 +32,14 @@ namespace loginAndReg.Controllers
             if (ModelState.IsValid)
             {
                 string checkEmail = $"SELECT * FROM users WHERE(email = '{model.email}')";
-                var emailExists = DbConnector.Query(checkEmail);
+                var emailExists = _dbConnector.Query(checkEmail);
                 if (emailExists.Count == 0)
                 {
                     string query = $"INSERT INTO users(firstName, lastName, email, password)VALUES('{model.firstName}', '{model.lastName}', '{model.email}', '{model.password}')";
                     System.Console.WriteLine(query);
-                    DbConnector.Execute(query);
+                    _dbConnector.Execute(query);
                     HttpContext.Session.SetString("user", model.firstName);
-                    var sessionQuery = DbConnector.Query(checkEmail);
+                    var sessionQuery = _dbConnector.Query(checkEmail);
                     int sessionId = (int)sessionQuery[0]["id"];
                     return RedirectToAction("Success");
                 }
@@ -83,7 +89,7 @@ namespace loginAndReg.Controllers
             if (ModelState.IsValid)
             {
                 string query = $"SELECT * FROM users WHERE(email = '{model.email}')";
-                var exists = DbConnector.Query(query);
+                var exists = _dbConnector.Query(query);
                 if (exists.Count == 0)
                 {
                     ViewBag.email = "Email not found";

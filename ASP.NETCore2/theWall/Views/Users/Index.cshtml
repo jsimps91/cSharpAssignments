@@ -1,0 +1,55 @@
+@model theWall.Models.UserViewModels
+<div class="container">
+<div class="half">
+<h1>Register</h1>
+<form asp-controller="Users" asp-action="Register" method="post">
+    <span asp-validation-for="Reg.firstName"></span>
+    <br>
+    <label>First Name:</label>
+    <input class="form-control" asp-for="Reg.firstName">
+    <br>
+    <span asp-validation-for="Reg.lastName"></span>
+    <br>
+    <label>Last Name:</label>
+    <input class="form-control" asp-for="Reg.lastName">
+    <br>
+    <span asp-validation-for="Reg.email"></span>
+    <br>
+    <p>@ViewBag.email</p>
+    <label>Email:</label>
+    <input class="form-control" asp-for="Reg.email">
+    <br>
+    <span asp-validation-for="Reg.password"></span>
+    <br>
+    <label>Password:</label>
+    <input class="form-control" asp-for="Reg.password">
+    <br>
+    <span asp-validation-for="Reg.confirmPassword"></span>
+    <br>
+    <label>Confirm Password:</label>
+    <input type="password" class="form-control" asp-for="Reg.confirmPassword">
+    <br>
+    <button type="submit" class="btn btn-info">Register</button>  
+</form>
+</div>
+<div class="half">
+    <h1>Login</h1>
+<form asp-action="Signin" asp-controller="Users" method="post">
+    @ViewBag.email
+    <span asp-validation-for="Log.email"></span>
+    <br>
+    <label>Email:</label>
+    <br>
+    <input class="form-control" asp-for="Log.email">
+    <br>
+    @ViewBag.password
+    <span asp-validation-for="Log.password"></span>
+    <br>
+    <label>Password:</label>
+    <br>
+    <input class="form-control" asp-for="Log.password">
+    <br>
+    <button class="btn btn-info" type="submit">Login</button>
+</form>
+</div>
+</div>
