@@ -9,6 +9,7 @@ namespace randomPasscode.Controllers
         [HttpGet]
         public IActionResult Index()
         {
+            System.Console.WriteLine(TempData["passcode"]);
             int? attempt = HttpContext.Session.GetInt32("attempt");
             if(attempt == null)
             {
@@ -32,5 +33,13 @@ namespace randomPasscode.Controllers
             
             return View();
         }
+        [HttpGet]
+        [Route("/clear")]
+        public IActionResult Clear()
+        {
+            HttpContext.Session.Clear();
+            return RedirectToAction("Index");
+        }
     }
+
 }

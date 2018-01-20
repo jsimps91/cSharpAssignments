@@ -1,0 +1,9 @@
+.half{
+    width: 35vw;
+    vertical-align: top;
+    margin-left: 3vw;
+    display: inline-block;
+}
+.link{
+    float: right;
+}

@@ -1,0 +1,64 @@
+@model dojoLeague.Models.Ninja
+<div class="half">
+<h1>All Ninjas!</h1>
+<table class="table">
+    <tr>
+        <th>Name</th>
+        <th>Dojo</th>
+    </tr>
+    @{
+    @foreach(var ninja in ViewBag.allNinjas)
+    {
+        <tr>
+            <td><a href="ninja/@ninja.id">@ninja.name</a></td>
+            @if(ninja.dojo_name == null)
+            {
+                <td>Rogue</td>
+            }
+            else
+            {
+              <td><a href="dojo/@ninja.dojo_id">@ninja.dojo_name</a></td>
+            }
+            
+        </tr>
+        
+    }
+}
+</table>
+</div>
+<div class="half">
+<a class="link" asp-controller="Dojo" asp-action="AllDojos">View all Dojos</a>    
+<h1>Add a ninja</h1>
+<form asp-action="addNinja" asp-controller="Ninja">
+    <span asp-validation-for="name"></span>
+    <br>
+    <label>Name:</label>
+    <input asp-for="name" class="form-control">
+    <br>
+    <span asp-validation-for="level"></span>
+    <br>
+    <label>Level (1-10):</label>
+    <input asp-for="level" class="form-control" min="1" max="10">
+    <br>
+    <span asp-validation-for="dojo_id"></span>
+    <br>
+    <label>Dojo:</label>
+    <select asp-for="dojo_id" class="form-control">
+        <option value="0">Rogue</option>
+            @{
+        @foreach(var dojo in ViewBag.allDojos)
+        {
+            <option value="@dojo.id">@dojo.name</option>
+        }
+    }
+    </select>
+
+    <br>
+    <label>Optional Description:</label>
+    <textarea class="form-control" asp-for="description"></textarea>
+    <br>
+    <button class="btn btn-info" type="submit">Add ninja!</button>
+</form>
+</div>
+
+

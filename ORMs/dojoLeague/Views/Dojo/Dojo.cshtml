@@ -1,0 +1,45 @@
+@{
+    var dojo = ViewBag.dojo;
+}
+<div>
+<a class="link"  asp-controller="Dojo" asp-action="AllDojos">View all Dojos</a>   
+<h1>@dojo.name</h1>
+<h2>location: @dojo.location</h2>
+<h3>info: @dojo.info</h3>
+</div>
+<div class="half">
+    <h1>Current Members</h1>
+    <table class="table">
+        <tr>
+            <th>Ninja</th>
+            <th>Action</th>
+        </tr>
+        @{
+            @foreach(var ninja in ViewBag.dojoNinjas)
+            {
+                <tr>
+                    <td><a href="/ninja/@ninja.id">@ninja.name</a></td>
+                    <td><a href="/banish/@ninja.id/@dojo.id">Banish!</a></td>
+                </tr>
+            }
+        }
+    </table>
+</div>
+<div class="half">
+    <h1>Rogue Ninjas</h1>
+    <table class="table">
+        <tr>
+            <th>Ninja</th>
+            <th>Action</th>
+        </tr>
+        @{
+            @foreach(var ninja in ViewBag.rogueNinjas)
+            {
+                <tr>
+                    <td><a href="/ninja/@ninja.id">@ninja.name</a></td>
+                    <td><a href="/recruit/@ninja.id/@dojo.id">Recruit!</a></td>
+                </tr>
+            }
+        }
+    </table>
+</div>

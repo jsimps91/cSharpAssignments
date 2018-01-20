@@ -1,0 +1,7 @@
+@{
+    var ninja = ViewBag.ninja;
+}
+<h1>Name: @ninja.name</h1>
+<h4>Ninja level- @ninja.level</h4>
+<p>Description: @ninja.description</p>
+<h4>Current dojo: <a href="/dojo/@ninja.dojo_id">@ninja.dojo_name</a></h4>
