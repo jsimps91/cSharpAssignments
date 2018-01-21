@@ -1,0 +1,8 @@
+<h1>Reviews!</h1>
+@foreach(var review in ViewBag.reviews)
+{
+    <h2>Review for @review.Restaurant  -  @review.Rating stars</h2>
+    <h4>Reviewer: @review.Reviewer on @review.Date.ToString("MMMM d, yyyy")</h4>
+    <p>@review.Content</p>
+    <hr>
+}

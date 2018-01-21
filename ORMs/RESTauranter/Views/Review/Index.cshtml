@@ -1,0 +1,37 @@
+@model RESTauranter.Models.Review
+<div class="container">
+    <h1>Add a review!</h1>
+    <form asp-action="createReview" asp-controller="Review">
+        <span asp-validation-for="Reviewer"></span>
+        <br>
+        <label>Reviewer name:</label>
+        <input asp-for="Reviewer" class="form-control">
+        <br>
+        <span asp-validation-for="Restaurant"></span>
+        <br>
+        <label>Restaurant name:</label>
+        <input asp-for="Restaurant" class="form-control">
+        <br>
+        <span asp-validation-for="Content"></span>
+        <br>
+        <label>Content:</label>
+        <input asp-for="Content" class="form-control">
+        <br>
+        <span asp-validation-for="Date"></span>
+        <br>
+        <label>Date Visited:</label>
+        <input type="date" asp-for="Date" class="form-control">
+        <br>
+        <span asp-validation-for="Rating"></span>
+        <label>Rating</label>
+        <select asp-for="Rating" class="form-control">
+            <option value="1" class="form-control">1 star</option>
+            <option value="2" class="form-control">2 stars</option>
+            <option value="3" class="form-control">3 stars</option>
+            <option value="4" class="form-control">4 stars</option>
+            <option value="5" class="form-control">5 stars</option>
+        </select>
+        <br>
+        <button class="btn btn-info">Submit</button>
+    </form>
+</div>
