@@ -1,0 +1,19 @@
+@model bankAccounts.Models.Login
+
+<div class="container">
+    <a class="link" asp-action="Index" asp-controller="Users">Back to registration</a>
+    <h1>Login</h1>
+    <form asp-action="LoginUser" asp-controller="Users">
+        <span asp-validation-for="Email"></span>
+        <br>
+        <label>Email:</label>
+        <input class="form-control" asp-for="Email">
+        <br>
+        <span asp-validation-for="Password"></span>
+        <br>
+        <label>Password:</label>
+        <input class="form-control" asp-for="Password">
+        <br>
+        <button class="btn btn-info">Login</button>
+    </form>
+</div>

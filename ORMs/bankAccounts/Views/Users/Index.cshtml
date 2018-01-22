@@ -1,0 +1,34 @@
+@model bankAccounts.Models.Register
+
+<div class="container">
+    <a class="link" asp-action="LoginPage" asp-controller="Users">Already registered? Login</a>
+    <h1>Register!</h1>
+    <form asp-action="createUser" asp-controller="Users">
+        <span asp-validation-for="FirstName"></span>
+        <br>
+        <label>First Name:</label>
+        <input asp-for="FirstName" class="form-control">
+        <br>
+        <span asp-validation-for="LastName"></span>
+        <br>
+        <label>Last Name:</label>
+        <input asp-for="LastName" class="form-control">
+        <br>
+        <span asp-validation-for="Email"></span>
+        <br>
+        <label>Email:</label>
+        <input asp-for="Email" class="form-control">
+        <br>
+        <span asp-validation-for="Password"></span>
+        <br>
+        <label>Password:</label>
+        <input asp-for="Password" class="form-control">
+        <br>
+        <span asp-validation-for="ConfirmPassword"></span>
+        <br>
+        <label>Confirm Password:</label>
+        <input asp-for="ConfirmPassword" class="form-control">
+        <br>
+        <button type="submit" class="btn btn-info">Register!</button>
+    </form>
+</div>
