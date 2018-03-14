@@ -1,7 +1,7 @@
 <h1>The Wall</h1>
 <a id="logout" href="/logout">Logout</a>
 <h3>Welcome, @ViewBag.name</h3>
-<form asp-action="createMessage" asp-action="Wall">
+<form asp-action="createMessage" asp-controller="Wall">
     <textarea class="form-control" rows="5" name="message"></textarea>
     <br>
     <button class="btn btn-info" type="submit">Post!</button>

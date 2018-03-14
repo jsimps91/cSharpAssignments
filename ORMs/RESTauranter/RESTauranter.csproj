@@ -13,6 +13,6 @@
     <DotNetCliToolReference Include="Microsoft.DotNet.Watcher.Tools" Version="2.0.0" />
     <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="1.1" />
      <PackageReference Include="System.Data.SqlClient" Version="4.1.0-*" />
-    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="1.1" />
+
   </ItemGroup>
 </Project>

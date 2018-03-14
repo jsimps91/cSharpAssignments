@@ -1,0 +1,10 @@
+/Users/jessicasimpson/Desktop/CSharp/ASP.NETCore/ajaxRandomPasscode/bin/Debug/netcoreapp2.0/ajaxRandomPasscode.deps.json
+/Users/jessicasimpson/Desktop/CSharp/ASP.NETCore/ajaxRandomPasscode/bin/Debug/netcoreapp2.0/ajaxRandomPasscode.runtimeconfig.json
+/Users/jessicasimpson/Desktop/CSharp/ASP.NETCore/ajaxRandomPasscode/bin/Debug/netcoreapp2.0/ajaxRandomPasscode.runtimeconfig.dev.json
+/Users/jessicasimpson/Desktop/CSharp/ASP.NETCore/ajaxRandomPasscode/bin/Debug/netcoreapp2.0/ajaxRandomPasscode.dll
+/Users/jessicasimpson/Desktop/CSharp/ASP.NETCore/ajaxRandomPasscode/bin/Debug/netcoreapp2.0/ajaxRandomPasscode.pdb
+/Users/jessicasimpson/Desktop/CSharp/ASP.NETCore/ajaxRandomPasscode/obj/Debug/netcoreapp2.0/ajaxRandomPasscode.csproj.CoreCompileInputs.cache
+/Users/jessicasimpson/Desktop/CSharp/ASP.NETCore/ajaxRandomPasscode/obj/Debug/netcoreapp2.0/ajaxRandomPasscode.AssemblyInfoInputs.cache
+/Users/jessicasimpson/Desktop/CSharp/ASP.NETCore/ajaxRandomPasscode/obj/Debug/netcoreapp2.0/ajaxRandomPasscode.AssemblyInfo.cs
+/Users/jessicasimpson/Desktop/CSharp/ASP.NETCore/ajaxRandomPasscode/obj/Debug/netcoreapp2.0/ajaxRandomPasscode.dll
+/Users/jessicasimpson/Desktop/CSharp/ASP.NETCore/ajaxRandomPasscode/obj/Debug/netcoreapp2.0/ajaxRandomPasscode.pdb

@@ -8,3 +8,13 @@
 /Users/jessicasimpson/Desktop/CSharp/fundamentals/obj/Debug/netcoreapp2.0/fundamentals.AssemblyInfo.cs
 /Users/jessicasimpson/Desktop/CSharp/fundamentals/obj/Debug/netcoreapp2.0/fundamentals.dll
 /Users/jessicasimpson/Desktop/CSharp/fundamentals/obj/Debug/netcoreapp2.0/fundamentals.pdb
+/Users/jessicasimpson/Desktop/CSharp/languageEssentials/fundamentals/bin/Debug/netcoreapp2.0/fundamentals.deps.json
+/Users/jessicasimpson/Desktop/CSharp/languageEssentials/fundamentals/bin/Debug/netcoreapp2.0/fundamentals.runtimeconfig.json
+/Users/jessicasimpson/Desktop/CSharp/languageEssentials/fundamentals/bin/Debug/netcoreapp2.0/fundamentals.runtimeconfig.dev.json
+/Users/jessicasimpson/Desktop/CSharp/languageEssentials/fundamentals/bin/Debug/netcoreapp2.0/fundamentals.dll
+/Users/jessicasimpson/Desktop/CSharp/languageEssentials/fundamentals/bin/Debug/netcoreapp2.0/fundamentals.pdb
+/Users/jessicasimpson/Desktop/CSharp/languageEssentials/fundamentals/obj/Debug/netcoreapp2.0/fundamentals.csproj.CoreCompileInputs.cache
+/Users/jessicasimpson/Desktop/CSharp/languageEssentials/fundamentals/obj/Debug/netcoreapp2.0/fundamentals.AssemblyInfoInputs.cache
+/Users/jessicasimpson/Desktop/CSharp/languageEssentials/fundamentals/obj/Debug/netcoreapp2.0/fundamentals.AssemblyInfo.cs
+/Users/jessicasimpson/Desktop/CSharp/languageEssentials/fundamentals/obj/Debug/netcoreapp2.0/fundamentals.dll
+/Users/jessicasimpson/Desktop/CSharp/languageEssentials/fundamentals/obj/Debug/netcoreapp2.0/fundamentals.pdb

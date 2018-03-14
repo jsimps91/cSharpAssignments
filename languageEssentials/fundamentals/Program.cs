@@ -4,8 +4,10 @@ namespace fundamentals
 {
     class Program
     {
+
         static void Main(string[] args)
         {
+
             // for(int i = 1; i < 256; i++)
             // {
             //     System.Console.WriteLine(i);
@@ -58,7 +60,9 @@ namespace fundamentals
             //         five = 5;
             //     }
             // }
-
+          
+            
+       
         }
     }
 }

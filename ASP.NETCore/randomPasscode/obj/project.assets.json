@@ -7625,7 +7625,7 @@
       ]
     },
     "runtime.native.System.Data.SqlClient.sni/4.4.0": {
-      "sha512": "A8v6PGmk+UGbfWo5Ixup0lPM4swuSwOiayJExZwKIOjTlFFQIsu3QnDXECosBEyrWSPryxBVrdqtJyhK3BaupQ==",
+      "sha512": "2IfnEdIiqduwuFCSlunaQB9/bz0F3b0UqjFt2jALDU/+wzyEJRt77yQ3h9o04hDFewJ0QPKqbCjyNDmNW8nA3w==",
       "type": "package",
       "path": "runtime.native.system.data.sqlclient.sni/4.4.0",
       "files": [
@@ -7794,7 +7794,7 @@
       ]
     },
     "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
-      "sha512": "LbrynESTp3bm5O/+jGL8v0Qg5SJlTV08lpIpFesXjF6uGNMWqFnUQbYBJwZTeua6E/Y7FIM1C54Ey1btLWupdg==",
+      "sha512": "WtTSW/2gnHopEXna/zwgZspMIzH7YG/0D8PwMvWNCZqrxxWG3I6tIW0/H7IzxGA6ne2UuFhQEnvuft7g5jIGKw==",
       "type": "package",
       "path": "runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0",
       "files": [
@@ -7808,7 +7808,7 @@
       ]
     },
     "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
-      "sha512": "38ugOfkYJqJoX9g6EYRlZB5U2ZJH51UP8ptxZgdpS07FgOEToV+lS11ouNK2PM12Pr6X/PpT5jK82G3DwH/SxQ==",
+      "sha512": "3TPYe828kJ6wOR2h9YUp0tXNnAvwQsCjmiZkUq0wa6y+9ZwYk+dWD3Iu5pBWwnvvnCoqvOnXrHslYUE9mDpN4Q==",
       "type": "package",
       "path": "runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0",
       "files": [
@@ -7822,7 +7822,7 @@
       ]
     },
     "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {
-      "sha512": "YhEdSQUsTx+C8m8Bw7ar5/VesXvCFMItyZF7G1AUY+OM0VPZUOeAVpJ4Wl6fydBGUYZxojTDR3I6Bj/+BPkJNA==",
+      "sha512": "Rg8sxcXGCF+BTSjKzlftWiMn4DkA89WyJx+Sxl24vs/G9UsJF/r/NtNg82exIPRhU+NecSj6XYIatqLo70x4Ag==",
       "type": "package",
       "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
       "files": [
@@ -8543,7 +8543,7 @@
       ]
     },
     "System.Data.SqlClient/4.4.0": {
-      "sha512": "fxb9ghn1k1Ua7FFdlvtiBOD4/PsQvD/fk2KnhS+FK7VC6OggEx6P+lP1P0+KMb5V2dqS1+FbR7HCenoqzJMNIA==",
+      "sha512": "KK/jlT22HWPfTPpabGQ7IYAgHo7Oqj+Ng0OPQsSbvIwz8Qgfpv43r16VlJEzzTzZUIibXaIox34j5Pr92roOpA==",
       "type": "package",
       "path": "system.data.sqlclient/4.4.0",
       "files": [
@@ -9848,7 +9848,7 @@
       ]
     },
     "System.Net.Security/4.3.0": {
-      "sha512": "IgJKNfALqw7JRWp5LMQ5SWHNKvXVz094U6wNE3c1i8bOkMQvgBL+MMQuNt3xl9Qg9iWpj3lFxPZEY6XHmROjMQ==",
+      "sha512": "j1u84AxIJSUKNOfNW2ydY3NX9XRXTgeo93OS55tcThJwYc/XHSsHVWQabVNCCjV0fby439vNVEqad34p0G9crA==",
       "type": "package",
       "path": "system.net.security/4.3.0",
       "files": [
@@ -10033,7 +10033,7 @@
       ]
     },
     "System.Private.DataContractSerialization/4.1.1": {
-      "sha512": "lcqFBUaCZxPiUkA4dlSOoPZGtZsAuuElH2XHgLwGLxd7ZozWetV5yiz0qGAV2AUYOqw97MtZBjbLMN16Xz4vXA==",
+      "sha512": "RUXxU9WC0jWTI6TafnDB4qF77x0lAiHZxXbnsQIAEwaNiGzTS/GyDkAkMdJGyh90fKiEHjgCOIxur7ptlBAlSw==",
       "type": "package",
       "path": "system.private.datacontractserialization/4.1.1",
       "files": [
@@ -11424,7 +11424,7 @@
       ]
     },
     "System.Security.Principal.Windows/4.4.0": {
-      "sha512": "pP+AOzt1o3jESOuLmf52YQTF7H3Ng9hTnrOESQiqsnl2IbBh1HInsAMHYtoh75iUYV0OIkHmjvveraYB6zM97w==",
+      "sha512": "TSQf4z43bwq8VRmWZxhAmtbQFBr677zLsKZY/vltarf/zo6c/upJZhKQKzlUXeT1NjwFhuvbB41qxokBu9OPCw==",
       "type": "package",
       "path": "system.security.principal.windows/4.4.0",
       "files": [
@@ -11592,7 +11592,7 @@
       ]
     },
     "System.Text.Encoding.CodePages/4.4.0": {
-      "sha512": "6JX7ZdaceBiLKLkYt8zJcp4xTJd1uYyXXEkPw6mnlUIjh1gZPIVKPtRXPmY5kLf6DwZmf5YLwR3QUrRonl7l0A==",
+      "sha512": "CWStQ8M7qMmQPRVQ9Ibv9p3Zqvsli87rHfwDodVKfAEI+ftDsgsICScQDwrgtz7gfuCtd5LMD9vrONkishGnSQ==",
       "type": "package",
       "path": "system.text.encoding.codepages/4.4.0",
       "files": [
@@ -12361,7 +12361,7 @@
       ]
     },
     "System.Xml.XmlSerializer/4.0.11": {
-      "sha512": "FrazwwqfIXTfq23mfv4zH+BjqkSFNaNFBtjzu3I9NRmG8EELYyrv/fJnttCIwRMFRR/YKXF1hmsMmMEnl55HGw==",
+      "sha512": "Ipw4UNXGB4jdCujKp+LTLKDcsOVSPmrP1aFjjX+r/CayaEoAJSDLmZtw2sGL5fwijbc3JpSsQ5mjIyUf/7wyxQ==",
       "type": "package",
       "path": "system.xml.xmlserializer/4.0.11",
       "files": [

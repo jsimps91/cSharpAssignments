@@ -85,7 +85,7 @@ namespace basic13
             for(int i = 0; i < arr.Length; i++)
             {
                 arr[i] *= arr[i];
-                System.Console.WriteLine(arr[i]);
+                System.Console.WriteLine(arr);
             }
         }
         static void zeroOutNegs(int[] arr)
@@ -151,8 +151,9 @@ namespace basic13
 
 
         static void Main(string[] args)
-        {
-            numToString(new object[]{-1,2,-3,-4,5});
+        {   
+            int[] arr ={1,2,3,4,5};
+            squareVals(arr);
             
         }
     }

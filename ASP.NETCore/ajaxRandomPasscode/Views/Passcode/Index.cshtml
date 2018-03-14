@@ -1,0 +1,20 @@
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $("#generate").click(function(){
+            $.get("generate", function(res){
+                $("#passcode").text(res.pc)
+                $("span").text(`(attempt #${res.num})`)
+            })
+        })
+    })
+</script>
+</head>
+
+<body>
+    <h1>Passcode <span></span></h1>
+    <button id="generate">Get passcode!</button><a href="/clear"><button>Reset</button></a>
+    <h1 id="passcode"></h1>
+    
+</body>

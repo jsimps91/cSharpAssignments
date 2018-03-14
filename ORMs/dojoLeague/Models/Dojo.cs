@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using System.Collections.Generic;
 namespace dojoLeague.Models
 {
     public abstract class BaseEntity{}
@@ -15,6 +16,7 @@ namespace dojoLeague.Models
 
         [Required]
         public string info{get;set;}
+        public ICollection<Ninja> ninjas { get; set; }
 
 
     }

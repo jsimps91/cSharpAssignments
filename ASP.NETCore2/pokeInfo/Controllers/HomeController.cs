@@ -4,28 +4,21 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 
+
 namespace pokeInfo.Controllers
 {
     public class HomeController : Controller
     {
-  
         [HttpGet]
-        [Route("")]
-        public IActionResult Home()
+        [Route("pokeinfo/{id}")]
+        public IActionResult Index(int id)
         {
-            return View("Index");
-        }
- 
-        [HttpGet]
-        [Route("pokemon/{pokeid}")]
-        public IActionResult Index(int pokeid)
-        {
-            var PokeInfo = new Dictionary<string, object>();
-            WebRequest.GetPokemonDataAsync(pokeid, ApiResponse =>
-        {
-            PokeInfo = ApiResponse;
-        }
-        ).Wait();
+            var PokeObject = new Pokemon();
+
+            WebRequest.GetPokemonDataAsync(id, PokeResponse => {
+                PokeObject = PokeResponse;
+            }).Wait();
+            ViewBag.Pokemon = PokeObject;
             return View();
         }
     }

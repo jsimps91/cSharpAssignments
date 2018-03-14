@@ -15,22 +15,12 @@ namespace dojodachi.Controllers
             {
                 HttpContext.Session.SetInt32("happiness", 20);
                 TempData["message"] = "Hello, meet your Dojodachi!";
-            }
-            int? fullness = HttpContext.Session.GetInt32("fullness");
-            if (fullness == null)
-            {
                 HttpContext.Session.SetInt32("fullness", 20);
-            }
-            int? energy = HttpContext.Session.GetInt32("energy");
-            if (energy == null)
-            {
                 HttpContext.Session.SetInt32("energy", 50);
-            }
-            int? meals = HttpContext.Session.GetInt32("meals");
-            if (meals == null)
-            {
                 HttpContext.Session.SetInt32("meals", 3);
             }
+            int? fullness = HttpContext.Session.GetInt32("fullness");
+            int? energy = HttpContext.Session.GetInt32("energy");
             if(fullness == 0 || happiness == 0)
             {
                 TempData["gameStatus"] = "over";
