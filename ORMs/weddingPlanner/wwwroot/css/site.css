@@ -1,0 +1,19 @@
+.title{
+    display: inline-block;
+}
+.links{
+    float: right;
+    margin-top: 10px;
+}
+.half{
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+#left{
+    float: right;
+}
+#map {
+    height: 400px;
+    width: 100%;
+   }

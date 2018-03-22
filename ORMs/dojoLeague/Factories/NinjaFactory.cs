@@ -12,7 +12,7 @@ namespace dojoLeague.Factory
 
         public NinjaFactory()
         {
-            connectionString = "server=localhost;userid=root;password=root;port=8889;database=dojoLeague;SslMode=None";
+            connectionString = "server=localhost;userid=root;password=root;port=3306;database=dojoLeague;SslMode=None";
         }
         internal IDbConnection Connection
         {

@@ -15,6 +15,7 @@ namespace lostInTheWoods.Models{
         public int? elevationChange{get;set;}
 
         [Required(ErrorMessage = "Latitude field is required")]
+       
         public double? lat{get;set;}
 
         [Required(ErrorMessage = "Longitude field is required")]

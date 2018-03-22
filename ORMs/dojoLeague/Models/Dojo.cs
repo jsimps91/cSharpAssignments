@@ -18,6 +18,11 @@ namespace dojoLeague.Models
         public string info{get;set;}
         public ICollection<Ninja> ninjas { get; set; }
 
+        public Dojo()
+        {
+            ninjas = new List<Ninja>();
+        }
+
 
     }
 }

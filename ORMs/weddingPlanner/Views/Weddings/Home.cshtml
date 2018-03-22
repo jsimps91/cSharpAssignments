@@ -1,0 +1,44 @@
+<h1>Welcome, @ViewBag.User.FirstName</h1>
+<a href="/logout">Logout</a><br>
+<div class="container">
+<table class="table">
+    <tr>
+        <th>Wedding</th>
+        <th>Date</th>
+        <th>Guests</th>
+        <th>Action</th>
+    </tr>
+    @foreach(var wedding in ViewBag.Weddings)
+    {
+        <tr>
+            <td><a href="weddings/@wedding.WeddingId">@wedding.WedderOne & @wedding.WedderTwo</a></td>
+            <td>@wedding.Date.ToString("MMM dd, yyyy")</td>
+            <td>@wedding.RSVPS.Count</td>
+            @if(wedding.UserId == ViewBag.User.UserId)
+            {
+                <td><a href="/delete/@wedding.WeddingId">Delete</a></td>
+            }
+            else
+            {
+                bool found = false;
+                @foreach(var rsvp in wedding.RSVPS)
+                {
+                    @if(rsvp.UserId == ViewBag.User.UserId)
+                    {
+                        found = true;
+                    }
+                }
+                @if(found == true)
+                {
+                    <td><a href="/unrsvp/@wedding.WeddingId">Un-RSVP</a></td>
+                }
+                else
+                {
+                    <td><a href="/rsvp/@wedding.WeddingId">RSVP</a></td>
+                }
+            }
+        </tr>
+    }
+</table>
+<a href="/newWedding"><button>New Wedding</button></a>
+</div>

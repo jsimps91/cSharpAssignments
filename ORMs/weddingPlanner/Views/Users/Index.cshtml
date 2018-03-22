@@ -1,0 +1,44 @@
+@model weddingPlanner.Models.UserViewModels
+
+<div class="container">
+    <div class="half">
+    <h1>Register</h1>
+    <form asp-controller="Users" asp-action="Register" method="POST">
+        <label>First Name:</label>
+        <span asp-validation-for="Reg.FirstName"></span>
+        <input class="form-control" asp-for="Reg.FirstName">
+        <br>
+        <label>Last Name:</label>
+        <span asp-validation-for="Reg.LastName"></span>
+        <input class="form-control" asp-for="Reg.LastName">
+        <br>
+        <label>Email:</label>
+        <span asp-validation-for="Reg.Email"></span>
+        <input class="form-control" asp-for="Reg.Email">
+        <br>
+        <label>Password:</label>
+        <span asp-validation-for="Reg.Password"></span>
+        <input class="form-control" asp-for="Reg.Password">
+        <br>
+        <label>Confirm Password:</label>
+        <span asp-validation-for="Reg.Confirm"></span>
+        <input class="form-control" asp-for="Reg.Confirm">
+        <br>
+        <button class="btn btn-info">Register!</button>
+    </form>
+    </div>
+    <div class="half" id="left">
+        <h1>Login</h1>
+        <form asp-controller="Users" asp-action="Login">
+            <label>Email:</label>
+            <span asp-validation-for="Login.Email"></span>
+            <input class="form-control" asp-for="Login.Email">
+            <br>
+            <label>Password</label>
+            <span asp-validation-for="Login.Password"></span>
+            <input class="form-control" asp-for="Login.Password">
+            <br>
+            <button class="btn btn-info">Login!</button>
+        </form>
+    </div>
+</div>

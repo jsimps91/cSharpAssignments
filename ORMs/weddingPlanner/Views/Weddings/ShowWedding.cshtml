@@ -1,0 +1,12 @@
+<div class="container">
+<h1 class="title">@ViewBag.Wedding.WedderOne & @ViewBag.Wedding.WedderTwo</h1> <span class="links"><a href="/home">Dashboard</a> | <a href="/logout">Logout</a></span>
+<h2>Date: @ViewBag.Wedding.Date.ToString("MMMM dd, yyyy")</h2>
+<h3>Guests</h3>
+<ul>
+    @foreach(var rsvp in ViewBag.Wedding.RSVPS)
+    {
+        <li>@rsvp.User.FirstName @rsvp.User.LastName</li>
+    }
+</ul>
+<div id="map" data="@ViewBag.Wedding.Address"></div>
+</div>

@@ -13,7 +13,6 @@ namespace dojoLeague.Models
         public int? level{get;set;}
 
         public int dojo_id{get;set;}
-
         
         public string description{get;set;}
         public string dojo_name{get;set;}
