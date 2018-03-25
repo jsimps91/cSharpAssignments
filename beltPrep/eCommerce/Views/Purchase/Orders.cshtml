@@ -1,0 +1,60 @@
+@model eCommerce.Models.Purchase 
+<div id ="order-form">
+    <h3>Add a new order</h3>
+    <form asp-controller="Purchase" asp-action="MakePurchase">
+       <div class="form-group">
+                <label>Customer</label>
+                <select asp-for="CustomerId" class="form-control">
+                    @foreach(var c in ViewBag.Customers)
+                    {
+                        <option value="@c.CustomerId">@c.Name</option>
+                    }
+                </select>
+           </div>
+           <div class="form-group">
+                <label>Quantity</label>
+                <select id="quantity-select" asp-for="Quantity" class="form-control">
+                    @for(int i = 1; i <= ViewBag.Products[0].Quantity; i++)
+                    {
+                        <option value="@i">@i</option>
+                    }
+                </select>
+           </div>
+           <div class="form-group">
+                <label>Product</label>
+                <select id="item-select" asp-for="ProductId" class="form-control">
+                    @foreach(var p in ViewBag.Products)
+                    {
+                        <option data="@p.Price" value="@p.ProductId">@p.Title</option>
+                    }
+                </select>
+           </div>  
+           <button class="btn btn-default">Place order</button>     
+    </form>
+
+
+</div>
+
+<div id="orders">
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Customer Name</th>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var order in ViewBag.Orders)
+            {
+                <tr>
+                    <td>@order.Customer.Name</td>
+                    <td>@order.Product.Title</td>
+                    <td>@order.Quantity</td>
+                    <td>@order.CreatedAt.ToString("MMMM dd yyyy")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

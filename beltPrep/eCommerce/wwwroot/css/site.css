@@ -1,0 +1,60 @@
+#product-form{
+    width: 20vw;
+    display: inline-block;
+}
+.main{
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 10vh;
+    width: 800px;
+}
+.thumbnail{
+    width: 190px;
+    height: 190px;
+    vertical-align: top;
+    display: inline-block;
+    margin: 3px 3px 3px;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1px;
+}
+
+.product-info{
+    text-align: center;
+    margin-top: 70%;
+    display: block;
+    margin-top: 90%;
+}
+#customer-form{
+    width: 30vw;
+    display: inline-block;
+}
+#order-form{
+    width: 25vw;
+    display: inline-block;
+}
+#orders{
+    display: inline-block;
+    width: 48vw;
+    vertical-align: top;
+    margin: 4em 0 0 4em;
+}
+.product-label{
+    background-color: white;
+    margin: 0;
+}
+#left-search{
+    display: inline-block;
+    width: 20vw;
+}
+.sub{
+    margin-left: 25vw;
+}
+#display-products{
+    margin-top: 0;
+}
+#purchase-form{
+    display: inline-block;
+}

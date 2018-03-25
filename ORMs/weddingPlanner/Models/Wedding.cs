@@ -11,6 +11,7 @@ namespace weddingPlanner.Models
         public int WeddingId { get; set; }
 
         public int UserId { get; set; }
+        
         [Required(ErrorMessage="Wedder One required!")]
         public string WedderOne { get; set; }
         [Required(ErrorMessage="Wedder Two required!")]

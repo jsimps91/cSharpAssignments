@@ -1,0 +1,25 @@
+@model eCommerce.Models.Purchase
+<h2>Order Summary</h2>
+<h3>@ViewBag.Product.Title</h3>
+<h4>Quantity @ViewBag.Purchase.Quantity</h4>
+<h5>Total: $@String.Format("{0:#,##0.00}", @ViewBag.Price)</h5>
+<h5>Customer: @ViewBag.Customer.Name</h5>
+@{
+  float price = @ViewBag.Price * 100;
+}
+<a href="/cancel"><button class="btn btn-danger">Cancel order</button></a>
+
+<form id="purchase-form" asp-controller="Purchase" asp-action="Finalize" method="POST">
+  <script
+    src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+    data-key="pk_test_8HBdAkyUIfjAMHl92NWAfkDo"
+    data-amount="@price"
+    data-name="eCommerce"
+    data-description= "@ViewBag.Product.Title (@ViewBag.Purchase.Quantity)"
+    data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+    data-locale="auto">
+  </script>
+  <input type="hidden" asp-for="CustomerId" value="@ViewBag.Customer.CustomerId">
+  <input type="hidden" asp-for="ProductId" value="@ViewBag.Product.ProductId">
+  <input type="hidden" asp-for="Quantity" value="@ViewBag.Purchase.Quantity">
+</form>

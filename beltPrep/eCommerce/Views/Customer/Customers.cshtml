@@ -1,0 +1,33 @@
+@model eCommerce.Models.Customer
+<div>
+<h3>Add a new customer</h3>
+<form id="customer-form" asp-controller="Customer" asp-action="CreateCustomer">
+    <div class="form-group">
+    <label>Name</label>
+    <span asp-validation-for="Name" class="text-danger"></span>
+    <input class="form-control" asp-for="Name">
+    </div>
+    <button class="btn btn-default">Add</button>
+</form>
+</div>
+<div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Created Date</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var customer in ViewBag.Customers)
+            {
+                <tr>    
+                    <td>@customer.Name </td>
+                    <td>@customer.CreatedAt.ToString("MMMM dd yyyy")</td>
+                    <td><a href="delete/@customer.CustomerId"><button class="btn btn-danger">Delete</button></a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

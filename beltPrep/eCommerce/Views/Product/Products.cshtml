@@ -1,0 +1,48 @@
+@model eCommerce.Models.Product 
+
+    <div id="product-form">
+        <h3>Add a new product</h3>
+        <form asp-controller="Product" asp-action="CreateProduct">
+            <div class="form-group">
+                <label>Name</label>
+                <span class="text-danger" asp-validation-for="Title"></span>
+                <input class="form-control" asp-for="Title">
+            </div>
+            <div class="form-group">
+                <label>ImageUrl</label>
+                <span class="text-danger" asp-validation-for="ImageUrl"></span>
+                <input class="form-control" asp-for="ImageUrl">
+            </div>
+            <div class="form-group">
+                <label>Description</label>
+                <span class="text-danger" asp-validation-for="Description"></span>
+                <textarea class="form-control" asp-for="Description" rows="5"></textarea>
+            </div>
+
+                <div class="form-group">
+                <label>Quantity</label>
+                <span class="text-danger" asp-validation-for="Quantity"></span>
+                <input class="form-control" asp-for="Quantity">
+            </div>
+            <div class="form-group">
+                <label>Price</label>
+                <span class="text-danger" asp-validation-for="Price"></span>
+                <div class="input-group">
+                <span class="input-group-addon">$</span>
+                <input id="price" type="number" min="0.00" max="10000.00" step="0.01" class="form-control" asp-for="Price">
+                </div>
+              
+            </div>
+            <button class="btn btn-default">Add</button>
+        </form>
+    </div>
+    <div class="main">
+        @foreach(var product in ViewBag.Products)
+        {
+            <div class="thumbnail"  data-name="@product.Title" data-quantity="(@product.Quantity left)" style="background-image: url(@product.ImageUrl)">
+                <div class="product-info">
+                    <h5 class="product-label">@product.Title  <span class="badge">@product.Quantity</span></h5>
+                </div>
+            </div> 
+        }
+    </div>

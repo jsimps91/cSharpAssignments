@@ -1,0 +1,113 @@
+    <div id="left-search">
+        <input id="filter-products" placeholder="Filter" class="search form-control">
+    </div>
+    <div id="display-products" class="main">
+        @foreach(var product in ViewBag.Products)
+        {
+            <div class="thumbnail" style="background-image: url(@product.ImageUrl)">
+                <div class="product-info">
+                    <h5 class="product-label">@product.Title  <span class="badge">@product.Quantity</span></h5>
+                </div>
+            </div> 
+        }
+        <a href="#" id="show-more" data="2">Show more...</a>
+    </div>
+    <div class="main sub">
+        <h5>Recent Orders</h5>
+        @foreach(var o in ViewBag.Orders)
+        {
+            double time;
+            string interval = "";
+            string name = o.Product.Title;
+            @if(o.Quantity > 1 && o.Product.Title[o.Product.Title.Length-1] != 's')
+            {
+                name += "s";
+            }
+            @if((DateTime.Now - o.CreatedAt).TotalDays < 1)
+            {
+                time = (DateTime.Now - o.CreatedAt).TotalHours;
+                interval = "hour";   
+            }
+            else if((DateTime.Now - o.CreatedAt).TotalDays > 13)
+            {
+                time = (DateTime.Now - o.CreatedAt).TotalWeeks;
+                interval = "week";
+            }
+            else
+            {
+                time = (DateTime.Now - o.CreatedAt).TotalDays;
+                interval = "day";
+            }
+            time = (int)time;
+            @if(time != 1)
+            {
+                interval += 's';
+            }
+    
+            <p>@o.Customer.Name ordered @o.Quantity @name @time @interval.ToString() ago</p>
+        }
+    </div>
+    <div class="main sub">
+        <h5>New Customers</h5>
+        @foreach(var c in ViewBag.Customers)
+        {
+            double time;
+            string interval = "";
+            if(c.Purchases.Count == 0)
+            {
+                @if((DateTime.Now - c.CreatedAt).TotalDays < 1)
+                {
+                    time = (DateTime.Now - c.CreatedAt).TotalHours;
+                    interval = "hour";   
+                }
+                else if((DateTime.Now - c.CreatedAt).TotalDays > 13)
+                {
+                    time = (DateTime.Now - c.CreatedAt).TotalWeeks;
+                    interval = "week";
+                }
+                else
+                {
+                    time = (DateTime.Now - c.CreatedAt).TotalDays;
+                    interval = "day";
+                }
+                time = (int)time;
+                @if(time != 1)
+                {
+                    interval += 's';
+                }
+                <p>@c.Name joined @time @interval ago</p>
+            }
+            else
+            {
+                var p = c.Purchases[0];
+                string name = p.Product.Title;
+                @if(p.Quantity > 1 && p.Product.Title[p.Product.Title.Length-1] != 's')
+                {
+                    name += "s";
+                }
+                 @if((DateTime.Now - p.CreatedAt).TotalDays < 1)
+                {
+                    time = (DateTime.Now - p.CreatedAt).TotalHours;
+                    interval = "hour";   
+                }
+                else if((DateTime.Now - p.CreatedAt).TotalDays > 13)
+                {
+                    time = (DateTime.Now - p.CreatedAt).TotalWeeks;
+                    interval = "week";
+                }
+                else
+                {
+                    time = (DateTime.Now - p.CreatedAt).TotalDays;
+                    interval = "day";
+                }
+                time = (int)time;
+                @if(time != 1)
+                {
+                    interval += 's';
+                }
+                <p>@c.Name purchased @p.Quantity @name @time @interval ago</p>
+
+            }
+
+        }
+    </div>
