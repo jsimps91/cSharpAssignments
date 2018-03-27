@@ -1,3 +1,18 @@
 
-<h1>PokeInfo</h1>
-<p>Get to adding stuff</p>
+<h1>@ViewBag.Pokemon.Name</h1>
+<h3>Height:</h3>
+<p>@ViewBag.Pokemon.Height</p>
+<h3>Weight</h3>
+<p>@ViewBag.Pokemon.Weight</p>
+<h3>Types:</h3>
+<ul>
+@foreach(var type in ViewBag.Pokemon.Types)
+{
+    <li>@type</li>
+}
+</ul>
+<h3>Sprites:</h3>
+@foreach(var sprite in ViewBag.Pokemon.Sprites)
+{
+    <img src="@sprite" alt="sprite">
+}

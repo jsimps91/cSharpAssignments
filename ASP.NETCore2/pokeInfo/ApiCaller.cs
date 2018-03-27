@@ -4,12 +4,13 @@ using System.Threading.Tasks;
 using System.Collections.Generic;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using System.Linq;
 
 namespace pokeInfo
 {
     public class WebRequest
     {
-        public static async Task GetPokemonDataAsync(int PokeId, Action<Pokemon> Callback)
+           public static async Task GetPokemonDataAsync(int PokeId, Action<Pokemon> Callback)
         {
             // Create a temporary HttpClient connection.
             using (var Client = new HttpClient())
@@ -27,17 +28,32 @@ namespace pokeInfo
 
                     List<string> Types = new List<string>();
 
+                    JObject SpriteList = PokeObject["sprites"].Value<JObject>();
+
+                    List<dynamic> Sprites = new List<dynamic>();
+                    List<string> notNullSprites = new List<string>();
+
                     foreach(JObject TypeObject in TypeList)
                     {
                         Types.Add(TypeObject["type"]["name"].Value<string>());
                     }
 
+                    foreach(var s in SpriteList)
+                    {
+                        Sprites.Add(s);
+                    }
+                    var allSprites = Sprites.Where(s => s.Value != null).Select(s => s.Value.Value).ToList();
+                    foreach(var z in allSprites)
+                    {
+                        notNullSprites.Add(z);
+                    }    
+                    
                     Pokemon PokeData = new Pokemon{
                         Name = PokeObject["name"].Value<string>(),
                         Weight = PokeObject["weight"].Value<long>(),
                         Height = PokeObject["height"].Value<long>(),
-                        Types = Types
-
+                        Types = Types,
+                        Sprites = notNullSprites
                     };
                      
                     // Finally, execute our callback, passing it the response we got.

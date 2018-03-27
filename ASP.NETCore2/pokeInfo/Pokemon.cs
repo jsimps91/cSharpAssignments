@@ -12,5 +12,6 @@ namespace pokeInfo
         public long Height { get; set; }
 
         public long Weight { get; set; }
+        public List<string> Sprites {get; set;}
     }
 }
