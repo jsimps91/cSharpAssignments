@@ -1,0 +1,14 @@
+li, ul{
+    text-decoration: none;
+}
+.poster{
+    width: 200px;
+}
+.movie{
+    display: inline-block;
+    margin: 14px;
+    width: 200px;
+}
+input{
+    margin: 10px;
+}
